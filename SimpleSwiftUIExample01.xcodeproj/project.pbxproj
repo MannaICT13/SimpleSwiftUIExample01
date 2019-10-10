@@ -16,6 +16,7 @@
 		2A15D44F234F88E900D4F7BA /* SimpleSwiftUIExample01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D44E234F88E900D4F7BA /* SimpleSwiftUIExample01Tests.swift */; };
 		2A15D45A234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D459234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift */; };
 		2A15D468234F8C4F00D4F7BA /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */; };
+		2A15D46A234F8D2B00D4F7BA /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D469234F8D2B00D4F7BA /* DataStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2A15D459234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftUIExample01UITests.swift; sourceTree = "<group>"; };
 		2A15D45B234F88E900D4F7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		2A15D469234F8D2B00D4F7BA /* DataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2A15D442234F88E900D4F7BA /* LaunchScreen.storyboard */,
 				2A15D445234F88E900D4F7BA /* Info.plist */,
 				2A15D43F234F88E900D4F7BA /* Preview Content */,
+				2A15D469234F8D2B00D4F7BA /* DataStruct.swift */,
 			);
 			path = SimpleSwiftUIExample01;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A15D46A234F8D2B00D4F7BA /* DataStruct.swift in Sources */,
 				2A15D438234F88E300D4F7BA /* AppDelegate.swift in Sources */,
 				2A15D468234F8C4F00D4F7BA /* ContentViewRow.swift in Sources */,
 				2A15D43A234F88E300D4F7BA /* SceneDelegate.swift in Sources */,
