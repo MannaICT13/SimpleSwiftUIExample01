@@ -15,7 +15,7 @@ struct ContentView: View {
             
             List(persons){ person in
                    
-                   NavigationLink(destination: ContentViewDetails()){
+                NavigationLink(destination: ContentViewDetails(img: person.img, title: person.title,subtitle: person.subtitle)){
                        
                        ContentViewRow(img: person.img, title: person.title, subtitle: person.subtitle)
                                   
@@ -24,7 +24,10 @@ struct ContentView: View {
                   
                 
                    
-               }
+            }.navigationBarTitle("Persons")
+
+        
+        
                
         }
    

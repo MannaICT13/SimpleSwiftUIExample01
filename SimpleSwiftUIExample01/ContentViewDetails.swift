@@ -9,13 +9,20 @@
 import SwiftUI
 
 struct ContentViewDetails: View {
+    
+    var img : String
+    var title : String
+    var subtitle : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+       ContentViewRow(img: img, title: title, subtitle: subtitle)
+        .navigationBarTitle("Person Details", displayMode: .inline)
+        
     }
 }
 
 struct ContentViewDetails_Previews: PreviewProvider {
     static var previews: some View {
-        ContentViewDetails()
+        ContentViewDetails(img: "image1", title: "Manna",subtitle: "He is a Student.")
     }
 }
