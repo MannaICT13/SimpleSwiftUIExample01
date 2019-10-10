@@ -15,6 +15,7 @@
 		2A15D444234F88E900D4F7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A15D442234F88E900D4F7BA /* LaunchScreen.storyboard */; };
 		2A15D44F234F88E900D4F7BA /* SimpleSwiftUIExample01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D44E234F88E900D4F7BA /* SimpleSwiftUIExample01Tests.swift */; };
 		2A15D45A234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D459234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift */; };
+		2A15D468234F8C4F00D4F7BA /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2A15D455234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSwiftUIExample01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A15D459234F88E900D4F7BA /* SimpleSwiftUIExample01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftUIExample01UITests.swift; sourceTree = "<group>"; };
 		2A15D45B234F88E900D4F7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2A15D437234F88E300D4F7BA /* AppDelegate.swift */,
 				2A15D439234F88E300D4F7BA /* SceneDelegate.swift */,
 				2A15D43B234F88E300D4F7BA /* ContentView.swift */,
+				2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */,
 				2A15D43D234F88E900D4F7BA /* Assets.xcassets */,
 				2A15D442234F88E900D4F7BA /* LaunchScreen.storyboard */,
 				2A15D445234F88E900D4F7BA /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A15D438234F88E300D4F7BA /* AppDelegate.swift in Sources */,
+				2A15D468234F8C4F00D4F7BA /* ContentViewRow.swift in Sources */,
 				2A15D43A234F88E300D4F7BA /* SceneDelegate.swift in Sources */,
 				2A15D43C234F88E300D4F7BA /* ContentView.swift in Sources */,
 			);
@@ -444,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.manna.SimpleSwiftUIExample01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleSwiftUIExample01;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.manna.SimpleSwiftUIExample01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleSwiftUIExample01;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
