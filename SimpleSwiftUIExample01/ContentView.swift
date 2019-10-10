@@ -11,14 +11,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
      
-        List(persons){ person in
+        NavigationView{
             
-            ContentViewRow(img: person.img, title: person.title, subtitle: person.subtitle)
-            
-         
-            
+            List(persons){ person in
+                   
+                   NavigationLink(destination: ContentViewDetails()){
+                       
+                       ContentViewRow(img: person.img, title: person.title, subtitle: person.subtitle)
+                                  
+                   }
+                   
+                  
+                
+                   
+               }
+               
         }
-        
+   
    
         
         
