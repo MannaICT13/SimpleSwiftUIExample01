@@ -9,20 +9,26 @@
 import SwiftUI
 
 struct ContentViewRow: View {
+    
+    var img : String
+    var title  : String
+    var subtitle : String
+    
+    
     var body: some View {
           
               
               HStack{
 
-                  Image("image1")
+                  Image(img)
                       .resizable()
                       .frame(width: 90, height: 90)
                       .cornerRadius(15)
                   
                   VStack(alignment:.leading,spacing: 10){
-                      Text("Manna")
+                      Text(title)
                           .font(.headline)
-                      Text("He is a Student")
+                      Text(subtitle)
                           .font(.subheadline)
                       
                   }
@@ -33,6 +39,6 @@ struct ContentViewRow: View {
 
 struct ContentViewRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContentViewRow()
+        ContentViewRow(img: "image1", title: "Manna", subtitle: "He is a Student")
     }
 }

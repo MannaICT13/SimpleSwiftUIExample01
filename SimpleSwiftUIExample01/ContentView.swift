@@ -11,7 +11,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
      
-    ContentViewRow()
+        List(persons){ person in
+            
+            ContentViewRow(img: person.img, title: person.title, subtitle: person.subtitle)
+            
+         
+            
+        }
+        
+   
         
         
     }

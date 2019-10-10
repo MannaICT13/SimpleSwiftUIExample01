@@ -107,11 +107,11 @@
 				2A15D439234F88E300D4F7BA /* SceneDelegate.swift */,
 				2A15D43B234F88E300D4F7BA /* ContentView.swift */,
 				2A15D467234F8C4F00D4F7BA /* ContentViewRow.swift */,
+				2A15D469234F8D2B00D4F7BA /* DataStruct.swift */,
 				2A15D43D234F88E900D4F7BA /* Assets.xcassets */,
 				2A15D442234F88E900D4F7BA /* LaunchScreen.storyboard */,
 				2A15D445234F88E900D4F7BA /* Info.plist */,
 				2A15D43F234F88E900D4F7BA /* Preview Content */,
-				2A15D469234F8D2B00D4F7BA /* DataStruct.swift */,
 			);
 			path = SimpleSwiftUIExample01;
 			sourceTree = "<group>";

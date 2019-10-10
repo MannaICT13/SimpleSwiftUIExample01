@@ -9,19 +9,19 @@
 import Foundation
 import SwiftUI
 
-struct DataStruct {
+struct DataStruct : Identifiable{
     
     var id = UUID()
     var img : String
-    var ttile : String
+    var title : String
     var subtitle : String
     
     
 }
 
-let persons = [DataStruct(img: "image1", ttile: "Manna", subtitle: "He is a Ttudent."),
-               DataStruct(img: "image2", ttile: "Munna", subtitle: "He is a Teacher."),
-               DataStruct(img: "image3", ttile: "Shaon", subtitle: "He is a student."),
-               DataStruct(img: "image4", ttile: "Limon", subtitle: "He is a Businessman."),
-               DataStruct(img: "image5", ttile: "Rakib", subtitle: "He is a student."),
-               DataStruct(img: "image6", ttile: "Shumon", subtitle: "He is a student.")]
+let persons = [DataStruct(img: "image1", title: "Manna", subtitle: "He is a Ttudent."),
+               DataStruct(img: "image2", title: "Munna", subtitle: "He is a Teacher."),
+               DataStruct(img: "image3", title: "Shaon", subtitle: "He is a student."),
+               DataStruct(img: "image4", title: "Limon", subtitle: "He is a Businessman."),
+               DataStruct(img: "image5", title: "Rakib", subtitle: "He is a student."),
+               DataStruct(img: "image6", title: "Shumon", subtitle: "He is a student.")]
